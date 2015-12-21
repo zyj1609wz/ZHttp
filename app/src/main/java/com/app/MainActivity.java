@@ -17,6 +17,11 @@ public class MainActivity extends AppCompatActivity {
         //请求地址
         String url = "http://www.baidu.com" ;
 
+        //修复空指针
+        if ( url != null ){
+
+        }
+
         mAsyncTask = new MAsyncTask( url  , new HttpCallBack() {
             @Override
             protected void start() {
