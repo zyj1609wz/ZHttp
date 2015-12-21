@@ -1,14 +1,3 @@
-#ZHttp
-
-### 项目说明
-1. 这是一个android 专用的http请求框架，名字叫 ZHttp
-2. 项目地址：[http://git.oschina.net/zyj1609/ZHttp](http://git.oschina.net/zyj1609/ZHttp)
-
-### 使用说明
-
-1. 简单的使用
-
-```
 package com.app;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -57,5 +46,3 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
-
-```
